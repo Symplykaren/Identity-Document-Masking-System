@@ -8,4 +8,6 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="blue">#0000FF</color>
+    <color name="lighter">#675cb0</color>
+    <color name="sky">#7f7fbf</color>
 </resources>

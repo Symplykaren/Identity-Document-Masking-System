@@ -1,4 +1,3 @@
-# import required library
 import cv2
 
 # read the input image

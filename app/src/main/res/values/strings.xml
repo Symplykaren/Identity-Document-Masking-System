@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">AI_Project app</string>
-    <string name="kida">KIDA</string>
+    <string name="kida">Korean ID Card Masking App</string>
     <string name="ocr_image">ocr_image</string>
     <string name="prompt1_1">Capture ID cards horizontally for optimal image quality.</string>
     <string name="prompt2">Ensure captured images are clear and not blurry.</string>
@@ -11,4 +11,5 @@
     <string name="image_viewer">Image viewer</string>
     <string name="Face">Face Masking</string>
     <string name="Text">Text Masking</string>
+    <string name="save_button">Save</string>
 </resources>

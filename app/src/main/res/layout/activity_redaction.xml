@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CameraActivity">
+    tools:context=".CameraActivity"
+    android:background="@drawable/db">
 
     <include
         android:id="@+id/toolbar"
@@ -30,6 +31,10 @@
         android:layout_height="58dp"
         android:layout_marginTop="-150dp"
         android:text="@string/Face"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/lighter"
+        android:foreground="@drawable/ripple"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.203"
@@ -41,10 +46,28 @@
         android:layout_width="135dp"
         android:layout_height="58dp"
         android:layout_marginStart="28dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/lighter"
+        android:foreground="@drawable/ripple"
+        android:textColor="@color/white"
         android:text="@string/Text"
         app:layout_constraintBottom_toBottomOf="@+id/cameraBtn"
         app:layout_constraintStart_toEndOf="@+id/cameraBtn"
         app:layout_constraintTop_toTopOf="@+id/cameraBtn"
         app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="135dp"
+        android:layout_height="58dp"
+        android:text="@string/save_button"
+        android:foreground="@drawable/ripple"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/lighter"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayImageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
