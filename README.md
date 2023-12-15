@@ -8,5 +8,5 @@ This Android app achieves automated detection and anonymization of sensitive det
 
 ### Running
 1. Clone this repository to android studio
-2. Extract the directory flask_python 
+2. Extract the directory Identity-Document-Masking-System/flask_python and install all paddleocr related dependencies (https://github.com/yunwoong7/korean_ocr_using_paddleOCR).
 
