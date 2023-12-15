@@ -6,9 +6,7 @@ This Android app achieves automated detection and anonymization of sensitive det
 
 ![image](images/face_redaction.png)
 
-### Prerequisites
-
 ### Running
-
-
+1. Clone this repository to android studio
+2. Extract the directory flask_python 
 
