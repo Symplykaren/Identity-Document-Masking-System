@@ -7,6 +7,9 @@ This Android app achieves automated detection and anonymization of sensitive det
 ![image](images/face_redaction.png)
 
 ### Running
-1. Clone this repository to android studio
-2. Extract the directory Identity-Document-Masking-System/flask_python and install all paddleocr related dependencies. Please refer to [this repository](https://github.com/yunwoong7/korean_ocr_using_paddleOCR).
-
+1. Install [android studio](https://developer.android.com/studio) and its latest depencies
+2. Install [flask](https://flask.palletsprojects.com/en/3.0.x/installation/) on your system
+3. Clone this repository to android studio (be sure android studio is sync properly and all gradle required dependencies are up to date and compatible)
+4. Extract the directory Identity-Document-Masking-System/flask_python to a separate directory on your system (keep it out of the android studio files) and install all paddleocr related dependencies. Please refer to [this repository](https://github.com/yunwoong7/korean_ocr_using_paddleOCR).
+5. Install [Ngrok](https://ngrok.com/download)
+6. Using your system terminal, navigate to your flask_python directory and run "python "
