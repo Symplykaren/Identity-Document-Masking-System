@@ -14,4 +14,4 @@ This Android app achieves automated detection and anonymization of sensitive det
 5. Install [Ngrok](https://ngrok.com/download)
 6. Using your system terminal, navigate to your flask_python directory and run file `python web_api`
 7. Also, run Ngrok and copy the provided Ngrok forwarding link (Excluding "-> http://localhost:5000") to the specified <domain> section of `app/src/main/res/xml/network_security_config.xml`
-8. 
+8. Copy the same link to the URL sections of 
