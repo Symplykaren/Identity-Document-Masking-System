@@ -12,4 +12,6 @@ This Android app achieves automated detection and anonymization of sensitive det
 3. Clone this repository to android studio (be sure android studio is sync properly and all gradle required dependencies are up to date and compatible)
 4. Extract the directory Identity-Document-Masking-System/flask_python to a separate directory on your system (keep it out of the android studio files) and install all paddleocr related dependencies. Please refer to [this repository](https://github.com/yunwoong7/korean_ocr_using_paddleOCR).
 5. Install [Ngrok](https://ngrok.com/download)
-6. Using your system terminal, navigate to your flask_python directory and run "python "
+6. Using your system terminal, navigate to your flask_python directory and run file `python web_api`
+7. Also, run Ngrok and copy the provided Ngrok forwarding link (Excluding "-> http://localhost:5000") to the specified <domain> section of `app/src/main/res/xml/network_security_config.xml`
+8. 
