@@ -6,7 +6,7 @@ This Android app achieves automated detection and anonymization of sensitive det
 
 ![image](images/face_redaction.png)
 
-### Running
+### To Run...
 1. Install [android studio](https://developer.android.com/studio) and its latest depencies
 2. Install [flask](https://flask.palletsprojects.com/en/3.0.x/installation/) on your system
 3. Clone this repository to android studio (be sure android studio is sync properly and all gradle required dependencies are up to date and compatible)
